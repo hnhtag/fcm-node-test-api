@@ -1,7 +1,6 @@
 # FCM NODE ADMIN SDK
 
 ## API doc
----
 
 ### Get list of client tokens
 
@@ -72,7 +71,7 @@ Param: `uuid`
 } 
 ```
 
-## Unsubscribe from topic
+### Unsubscribe from topic
 
 `/api/fcm/topic/unsubscribe` [DELETE]
 
@@ -84,7 +83,7 @@ Param: `uuid`
 }
 ```
 
-## Send message to uuid
+### Send message to uuid
 `/api/fcm/send/message` [POST]
 
 *Body:*
